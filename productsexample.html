@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shop from our store to elevate your style with the latest fashion trends. Browse a curated selection of clothing, accessories, and footwear for every occasion. Find your perfect look and express your unique fashion sense. Shop now and redefine your wardrobe!">
+    <title>Products</title>
+    <link rel="icon" type="image/x-icon" href="./images/banner1.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/productsexample.css">
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-bars"></i>
+        <div class="logo"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./shop.html">SHOP</a></li>
+                <li><a href="./productsexample.html" id="active">PRODUCTS</a></li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li class="more">
+                    <a href="#">MORE <i class="fa-solid fa-chevron-up tick"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="userSide">
+            <i class="fa-solid fa-magnifying-glass fa-magnifying-glass1"></i>
+            <i class="fa-regular fa-user fa-user1"></i>
+            <i class="fa-regular fa-heart wlist"></i>
+            <i class="fa-solid fa-cart-shopping shoplist"></i>
+        </div>
+    </header>
+
+    <!-- Side Bar -->
+
+    <div class="side">
+        <div class="sidebar">
+            <div class="sidetop">
+                <div id="close"><i class="fa-solid fa-xmark"></i></div>
+                <nav id="sideNav">
+                    <ul class="sideMenu">
+                        <li><a href="./index.html">HOME <i class="fa-solid fa-chevron-right"></i></a> </li>
+                        <li><a href="./shop.html">SHOP <i class="fa-solid fa-chevron-right"></i></a> </li>
+                        <li><a href="./productsexample.html">PRODUCTS <i class="fa-solid fa-chevron-right"></i></a> </li>
+                        <li><a href="./blog.html">BLOG <i class="fa-solid fa-chevron-right"></i></a> </li>
+                        <li id="moreItems"><a href="#">MORE <i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                </nav>
+                <div class="moreItem">
+                    <div id="back"><i class="fa-solid fa-chevron-left"></i> PAGES</div>
+                    <div class="items">
+                        <a href="./about.html">About <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="./contact.html">Contact <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="./faq.html">FAQ <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="sidebarBtn"> <i class="fa-regular fa-user fa-user2"></i> Login or Register</button>
+        </div>
+        <div class="opacarea"></div>
+    </div>
+    <!-- Search Bar -->
+    <div id="searchBar">
+        <div class="closing">What are you looking for? <i class="fa-solid fa-xmark"></i></div>
+        <div class="input"> <input type="text" placeholder="Search..."> <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+
+    <!-- Main Part-->
+    <div class="main">
+        <div class="left">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 img1" src="./images/29-1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img2" src="./images/29-2.jpg" alt="Second slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="details">
+                <h2 class="pr-name" style="font-weight: 600;">FLANNEL PANTS</h2>
+                <h3 class="pr-price" style="color: #7F4227; font-weight: 600;">100.00$</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit a tenetur. Voluptatum praesentium
+                    nostrum ab rem laudantium similique cum!</p>
+            </div>
+            <div class="cart">
+                <div class="counter"><button class="minus">-</button><span class="count">0</span><button
+                        class="plus">+</button></div>
+                <button class="addcart">ADD TO CART</button>
+                <button class="addwishlist"><i class="fa-regular fa-heart heart-2"></i></button>
+            </div>
+            <div class="payment">
+                <img src="./images/payments-2.png" alt="">
+                Guaranteed Safe Checkout
+            </div>
+            <div class="shipping">
+                <div><i class="fa-solid fa-truck-fast"></i>
+                    <p> Free worldwide shipping on all orders over $100</p>
+                </div>
+                <div><i class="fa-solid fa-truck"></i>
+                    <p> Delivers in: 3-7 Working Days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Description and Review-->
+    <div class="descrev">
+        <div class="headings">
+            <h3 class="ds">DESCRIPTION</h3>
+            <h3 class="rv">REVIEW</h3>
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem aliquam aliquid pariatur voluptatum
+                cupiditate repellendus unde alias quisquam, molestiae tenetur facere harum incidunt dolor autem, ex
+                debitis dolores consectetur cum id nobis sint repudiandae? Amet non pariatur ab, iste temporibus nostrum
+                delectus sint. Sates saepe doloremque quibusdam vero! Totam cumque tempore placeat! Esse quae eaque
+                ratione
+                eveniet et odio molestias, quisquam provident blanditiis repellat amet culpa dicta explicabo dolores
+                tempora maiores sint ab suscipit aliquam mollitia nisi voluptas! Quidem cum laborum ab blanditiis
+                possimus.</p>
+        </div>
+        <div class="review">
+            <div class="reviews"></div>
+            <button class="writerev">WRITE A REVIEW</button>
+        </div>
+        <div class="abr">
+            <div class="revwriting">
+                <div id="closer"><i class="fa-solid fa-xmark"></i></div>
+                <p>Your email address will not be published. Required fields are marked *</p>
+                <form action="">
+                    <textarea name="" cols="30" rows="8" placeholder="Write a review..."></textarea>
+                    <div class="names">
+                        <input class="name" type="text" placeholder="Name *">
+                        <input class="email" type="email" name="" id="" placeholder="Email *">
+                    </div>
+                    <button class="rsubmit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--Related-->
+    <div class="rp">
+        <h3>RELATED PRODUCTS</h3>
+        <div class="related">
+
+            <div class="product blacked fashion s accessories" >
+                <div class="productPic-1 product-5" data-name="VINTAGE FASHION EYEWEAR" data-price="100.00$" data-img1="./images/16-1.jpg" data-img2="./images/16-2.jpg">
+                    <p>HOT</p>
+                    <div class="shop-options">
+                        <i class="fa-solid fa-basket-shopping" data-name="VINTAGE FASHION EYEWEAR" data-price="100.00$" data-img1="./images/16-1.jpg" data-img2="./images/16-2.jpg"></i>
+                        <i class="fa-regular fa-heart heart-1" data-name="VINTAGE FASHION EYEWEAR" data-price="100.00$" data-img1="./images/16-1.jpg" data-img2="./images/16-2.jpg"></i>
+                        <i class="fa-solid fa-magnifying-glass fa-magnifying-glass-2" data-name="VINTAGE FASHION EYEWEAR" data-price="100.00$" data-img1="./images/16-1.jpg" data-img2="./images/16-2.jpg"></i>
+                    </div>
+                </div>
+                <h4>VINTAGE FASHION EYEWEAR</h4>
+                <div class="price">
+                    <span style="color: #7F4227; font-weight: 700; font-size: 1.1em;">100.00$</span>
+                </div>
+            </div>
+            <div class="product yellowed m cornila hats" >
+                <div class="productPic-1 product-6" data-name="SHEARLING BUCKET HAT" data-price="30.00$" data-img1="./images/2-1.jpg" data-img2="./images/2-2.jpg">
+                    <p>HOT</p>
+                    <div class="shop-options">
+                        <i class="fa-solid fa-basket-shopping" data-name="SHEARLING BUCKET HAT" data-price="30.00$" data-img1="./images/2-1.jpg" data-img2="./images/2-2.jpg"></i>
+                        <i class="fa-regular fa-heart heart-1" data-name="SHEARLING BUCKET HAT" data-price="30.00$" data-img1="./images/2-1.jpg" data-img2="./images/2-2.jpg"></i>
+                        <i class="fa-solid fa-magnifying-glass fa-magnifying-glass-2" data-name="SHEARLING BUCKET HAT" data-price="30.00$" data-img1="./images/2-1.jpg" data-img2="./images/2-2.jpg"></i>
+                    </div>
+                </div>
+                <h4>SHEARLING BUCKET HAT</h4>
+                <div class="price">
+                    <span style="color: #7F4227; font-weight: 700; font-size: 1.1em;">30.00$</span>
+                </div>
+            </div>
+            <div class="product pinked l rosyfashion designer" >
+                <div class="productPic-1 product-7" data-name="RIBBED SLEEVE T-SHIRT" data-price="110.00$" data-img1="./images/14-1.jpg" data-img2="./images/14-2.jpg">
+                    <p>-17%</p>
+                    <div class="shop-options">
+                        <i class="fa-solid fa-basket-shopping" data-name="RIBBED SLEEVE T-SHIRT" data-price="110.00$" data-img1="./images/14-1.jpg" data-img2="./images/14-2.jpg"></i>
+                        <i class="fa-regular fa-heart heart-1" data-name="RIBBED SLEEVE T-SHIRT" data-price="110.00$" data-img1="./images/14-1.jpg" data-img2="./images/14-2.jpg"></i>
+                        <i class="fa-solid fa-magnifying-glass fa-magnifying-glass-2" data-name="RIBBED SLEEVE T-SHIRT" data-price="110.00$" data-img1="./images/14-1.jpg" data-img2="./images/14-2.jpg"></i>
+                    </div>
+                </div>
+                <h4>RIBBED SLEEVE T-SHIRT</h4>
+                <div class="price"><s style="font-weight: 500;font-size: 0.9em; color: gray;">120.00$</s><span
+                        style="color: #7F4227; font-weight: 700; font-size: 1.1em;">110.00$</span>
+                </div>
+            </div>
+            <div class="product blacked xl hats florial" >
+                <div class="productPic-1 product-8" data-name="UV PROTECTION BUCKET HAT" data-price="200.00$" data-img1="./images/9-1.jpg" data-img2="./images/9-2.jpg">
+                    <p>OUT OF STOCK</p>
+                    <div class="shop-options">
+                        <i class="fa-solid fa-basket-shopping" data-name="UV PROTECTION BUCKET HAT" data-price="200.00$" data-img1="./images/9-1.jpg" data-img2="./images/9-2.jpg"></i>
+                        <i class="fa-regular fa-heart heart-1" data-name="UV PROTECTION BUCKET HAT" data-price="200.00$" data-img1="./images/9-1.jpg" data-img2="./images/9-2.jpg"></i>
+                        <i class="fa-solid fa-magnifying-glass fa-magnifying-glass-2" data-name="UV PROTECTION BUCKET HAT" data-price="200.00$" data-img1="./images/9-1.jpg" data-img2="./images/9-2.jpg"></i>
+                    </div>
+                </div>
+                <h4>UV PROTECTION BUCKET HAT</h4>
+                <div class="price"><span style="color: #7F4227; font-weight: 700; font-size: 1.1em;">200.00$</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="logo-f">
+            <div class="logo"></div>
+        </div>
+        <div class="ftr">
+            <div class="aboutSide">
+                <a href="tel:+8665972742">+866.597.2742</a>
+                <a href="mailto:support@mafoil.com">support@mafoil.com</a>
+                <div class="social">
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://dribbble.com/"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="sidetrim">
+                <h3>ACCOUNT</h3>
+                <a href="./about.html">Career at Bakye</a>
+                <a href="./about.html">About Us</a>
+                <a href="./blog.html">Press</a>
+            </div>
+            <div class="sidetrim">
+                <h3>HELP</h3>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./order.html">Order Status</a>
+            </div>
+            <div class="sidetrim">
+                <div class="bgpost"><img src="./images/1-720x484.jpg" alt="" width="75px" height="60px">
+                    <div class="texting">
+                        <p class="hbg">ACCESSORIES</p>
+                        <p>FASHION MAGIC EVERYDAY</p>
+                    </div>
+                </div>
+                <div class="bgpost"><img src="./images/3-720x484.jpg" alt="" width="75px" height="60px">
+                    <div class="texting">
+                        <p class="hbg">COLLECTION</p>
+                        <p>HER STYLE CHOICE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="cr">© 2023 - WP By Wpbingo <img src="./images/payments.png" alt="" width="215px" height="12px">
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/productsexample.js"></script>
+</body>
+
+</html>
